@@ -3,12 +3,6 @@
 -   개요: 랜덤으로 배경색을 변경하는 프로젝트
 -   주요 개념: arrays, `array.length`, `document.getElementById()`, `document.querySelector()`, `addEventListener()`, `document.body.style.backgroundColor`, `Math.floor()`, `Math.random()`
 
-## 🎯 목표
-
--   Vanilla JS을 사용해 기능 구현하는 법을 익히자
--   CSS 방법론(BEM)을 적용해 효율적으로 class명을 짓는 습관을 가지자
--   MVC 디자인 패턴을 바탕으로 프로젝트를 설계해보는 연습을 하자
-
 ## 🎨 FlowChart & Architecture
 
 [](https://app.diagrams.net/?src=about#G14zG424pGA1HCJLosJGQvrHqCUB3w3XJe)
