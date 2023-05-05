@@ -1,0 +1,78 @@
+:root {
+	--color-gradient: linear-gradient(to top right, green, yellow);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* nav */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem auto;
+	width: 70%;
+}
+
+.logo {
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.navbar__type-list {
+	display: flex;
+	list-style: none;
+}
+
+.navbar__type-item {
+	display: inline-block;
+	padding: 0.5rem;
+	margin-right: 0.5rem;
+	border-bottom: 2px solid green;
+	background-color: white;
+	cursor: pointer;
+}
+
+.navbar__type-item:not(:last-of-type) {
+	margin-right: 0.5rem;
+}
+
+.navbar__type-item:hover,
+.navbar__type-item--active {
+	background-color: green;
+	color: white;
+}
+
+/* main */
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+}
+
+.color-box {
+	width: 50vh;
+	height: 50vh;
+	border: 2px black solid;
+	background-color: yellow;
+}
+
+.color-text {
+	margin: 1rem 0;
+	font-size: 1.5rem;
+}
+
+.btn__color-change {
+	padding: 0.5rem;
+	border: none;
+	border-radius: 0.5rem;
+	background-image: var(--color-gradient);
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}
