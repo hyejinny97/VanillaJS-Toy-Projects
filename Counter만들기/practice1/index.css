@@ -1,0 +1,77 @@
+:root {
+	--red: rgba(255, 0, 0, 0.527);
+	--black: rgba(0, 0, 0, 0.63);
+	--green: rgba(0, 128, 0, 0.589);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40vh;
+}
+
+.header__title {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	height: 60vh;
+}
+
+.count {
+	font-size: 3rem;
+}
+
+.count--red {
+  color: var(--red);
+}
+
+.count--black {
+  color: var(--black);
+}
+
+.count--green {
+  color: var(--green);
+}
+
+.main__btn-container {
+	margin-top: 5rem;
+}
+
+.main__btn-item {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 1rem;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.main__btn-item:not(:last-of-type) {
+	margin-right: 1rem;
+}
+
+.main__btn-item:nth-of-type(1) {
+	background-color: var(--red);
+}
+
+.main__btn-item:nth-of-type(2) {
+	background-color: var(--black);
+}
+
+.main__btn-item:nth-of-type(3) {
+	background-color: var(--green);
+}
