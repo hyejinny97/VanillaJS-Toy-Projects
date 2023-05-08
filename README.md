@@ -9,3 +9,10 @@
 ## 🛠 실습
 
 -   [ColorFlipper 만들기](./ColorFlipper%EB%A7%8C%EB%93%A4%EA%B8%B0)
+-   [Counter 만들기](./Counter만들기)
+-   [Review Carousel 만들기](./ReviewCarousel만들기)
+-   [Responsive Navbar 만들기](./Nabvar만들기)
+
+## 📁 참고자료
+
+-   [FreeCodeCamp VanillaJS project](https://www.freecodecamp.org/news/javascript-projects-for-beginners/#how-to-create-a-restaurant-menu-page)
