@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+}
+
+/* 헤더 */
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 5rem;
+	padding: 2rem 3rem;
+	background-color: transparent;
+	color: white;
+	z-index: 10;
+}
+
+.header--sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	color: black;
+}
+
+.header--sticky .navbar__link {
+	color: black;
+}
+
+.logo {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.navbar__list {
+	display: flex;
+	list-style: none;
+}
+
+.navbar__link {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	color: white;
+	text-decoration: none;
+}
+
+.navbar__link:hover {
+	background-color: rgba(0, 0, 0, 0.404);
+}
+
+/* 공통 */
+.anchor {
+	margin-top: -5rem;
+	height: 5rem;
+}
+
+.section {
+	/* margin-top: -5rem; */
+	padding: 2rem 1rem;
+	/* padding-top: calc(2rem + 5rem); */
+	width: 100%;
+	height: 100vh;
+}
+
+.section:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, 0.048);
+}
+
+/* .section::before {
+	content: "\00a0";
+	display: block;
+	margin-top: -5rem;
+	height: 5rem;
+	background-color: red;
+} */
+
+.section__title {
+	font-size: 2rem;
+	text-align: center;
+}
+
+/* 배너 */
+.banner {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	color: white;
+}
+
+.banner__image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/hero-bcg.jpeg");
+	background-size: cover;
+	filter: brightness(60%);
+	z-index: -1;
+}
+
+.banner__title {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+
+.banner__content {
+	width: 30rem;
+}
