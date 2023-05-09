@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script defer type="module" src="./js/controller.js"></script>
+  <title>Video배경</title>
+</head>
+
+<body>
+  <main class="main">
+    <video class="video" src="../video.mp4" autoplay loop muted></video>
+    <div class="overlay">
+      <h2 class="title">Video Project</h2>
+    </div>
+    <div class="toggle-btn-container">
+      <input type="checkbox" id="play" checked hidden>
+      <label for="play" class="toggle-btn">
+        <span class="toggle-btn__text">play</span>
+        <span class="toggle-btn__text">pause</span>
+        <span class="toggle-btn__block"></span>
+      </label>
+    </div>
+  </main>
+</body>
+
+</html>
