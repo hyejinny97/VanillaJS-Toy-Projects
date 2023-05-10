@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(128, 128, 128, 0.103);
+}
+
+/* 헤더 */
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5rem 0;
+}
+
+/* 메인 */
+.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2rem;
+	padding: 0 3rem;
+}
+
+.main__image {
+	width: 100%;
+	max-height: 80%;
+	border-radius: 2rem;
+}
+
+.main__tab-btn-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.main__tab-btn {
+	padding: 0.5rem 0;
+	border: 1px solid rgba(128, 128, 128, 0.63);
+	background-color: rgba(128, 128, 128, 0.63);
+	cursor: pointer;
+}
+
+.main__tab-btn--active {
+	border: 1px solid gray;
+	background-color: white;
+}
+
+.main__tab-body {
+	padding: 1rem 2rem;
+	background-color: white;
+}
+
+.main__tab-title {
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
