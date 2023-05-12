@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="index.css">
+  <script defer type='module' src="./js/controller.js"></script>
+  <title>GroceryList</title>
+</head>
+
+<body>
+  <main class="main">
+    <p class="error-message hidden"></p>
+
+    <h2 class="title">Grocery List</h2>
+
+    <form class="form" data-type="add">
+      <input class="form__input" name='item' type="text" placeholder="e.g. eggs">
+      <button class="form__btn form__btn--add">Submit</button>
+      <button class="form__btn form__btn--edit">Edit</button>
+    </form>
+
+    <section class="grocery">
+      <!-- <div class="grocery__item">
+        <p class="grocery__title">Bacon</p>
+        <div>
+          <button class="grocery__btn grocery__btn--edit">
+            <i class="bi bi-pencil-square"></i>
+          </button>
+          <button class="grocery__btn grocery__btn--delete">
+            <i class="bi bi-trash3-fill"></i>
+          </button>
+        </div>
+      </div> -->
+    </section>
+
+    <p class="clear-items">Clear Items</p>
+  </main>
+</body>
+
+</html>
