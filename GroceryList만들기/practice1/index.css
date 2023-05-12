@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: rgba(0, 139, 139, 0.438);
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+	width: 50%;
+	border-radius: 1rem;
+	box-shadow: 0 0 1rem rgba(128, 128, 128, 0.486);
+	background-color: white;
+}
+
+.error-message {
+	padding: 0.5rem;
+	width: 100%;
+	border-radius: 0.5rem;
+	background-color: rgba(255, 0, 0, 0.555);
+	color: white;
+	font-weight: 700;
+}
+
+.title {
+	margin-bottom: 1rem;
+	color: darkcyan;
+	font-size: 2rem;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.form__input {
+	margin-right: 0.5rem;
+	padding: 0.4rem 0.5rem;
+	width: 50%;
+}
+
+.form__btn {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 1rem;
+	color: white;
+	cursor: pointer;
+}
+
+.form__btn--add {
+	background-color: darkcyan;
+}
+
+.form__btn--edit {
+	background-color: crimson;
+}
+
+.form[data-type="add"] .form__btn--edit,
+.form[data-type="edit"] .form__btn--add {
+	display: none;
+}
+
+.grocery {
+	margin-top: 2rem;
+	width: 60%;
+}
+
+.grocery__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+}
+
+.grocery__title {
+	font-weight: 600;
+}
+
+.grocery__btn {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.grocery__btn--edit {
+	margin-right: 0.2rem;
+	color: green;
+}
+
+.grocery__btn--delete {
+	color: red;
+}
+
+.clear-items {
+	margin-top: 2rem;
+	text-align: center;
+	font-weight: 700;
+	color: red;
+	cursor: pointer;
+}
+
+.hidden {
+	opacity: 0;
+}
