@@ -17,22 +17,20 @@
 
 ## 🧩 실습 결과물
 
-### ▶ practice 1
-
-> 튜토리얼 보기 전, 작성한 코드의 완성본
-
 ![](../gif/Counter_practice1.gif)
-
-### ▶ practice 2
-
-> 튜토리얼 본 후, 코드를 재작성한 결과 완성본
-
-![](../gif/)
 
 ## 💡 후기
 
-### ▶ practice 1 vs practice 2
+### ▶ 튜토리얼 vs 나의 코드
 
-> practice 1
+> 튜토리얼
 
-> practice 2
+-   increase/decrease/reset 버튼 각각에 event listener를 달아주었다
+-   세 버튼 각각의 class를 통해 increase인지 decrease인지 reset 버튼인지 구분했다
+-   양수/음수/0에 따라 숫자의 색을 바꿔줄 때, inline-style을 사용해 바꿔주었다
+
+> 나의 코드
+
+-   event bubbling을 활용해서 세 버튼을 담고 있는 컨테이너 하나에 event listener를 달아주었다
+-   세 버튼 각각의 dataset을 통해 increase인지 decrease인지 reset 버튼인지 구분했다
+-   양수/음수/0에 따라 숫자의 색을 바꿔줄 때, class을 사용해 바꿔주었다
