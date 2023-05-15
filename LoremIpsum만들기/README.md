@@ -17,22 +17,18 @@
 
 ## 🧩 실습 결과물
 
-### ▶ practice 1
-
-> 튜토리얼 보기 전, 작성한 코드의 완성본
-
 ![](../gif/loremIpsum_practice1.gif)
-
-### ▶ practice 2
-
-> 튜토리얼 본 후, 코드를 재작성한 결과 완성본
-
-![](../gif/)
 
 ## 💡 후기
 
-### ▶ practice 1 vs practice 2
+### ▶ 튜토리얼 vs 나의 코드
 
-> practice 1
+> 튜토리얼
 
-> practice 2
+-   input 값이 숫자가 아닐 때, 0 미만일 때, 10 이상일 때를 따로 처리해주었다
+-   input 값이 valid하지 않은 경우에만, 랜덤으로 하나의 텍스트를 보여주었다
+
+> 나의 코드
+
+-   input 값을 따로 validation 해주지 않았다
+-   입력한 숫자만큼 랜덤하게 텍스트 문단을 보여주었다

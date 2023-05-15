@@ -17,22 +17,16 @@
 
 ## 🧩 실습 결과물
 
-### ▶ practice 1
-
-> 튜토리얼 보기 전, 작성한 코드의 완성본
-
 ![](../gif/tab_practice1.gif)
-
-### ▶ practice 2
-
-> 튜토리얼 본 후, 코드를 재작성한 결과 완성본
-
-![](../gif/)
 
 ## 💡 후기
 
-### ▶ practice 1 vs practice 2
+### ▶ 튜토리얼 vs 나의 코드
 
-> practice 1
+> 튜토리얼
 
-> practice 2
+-   html에 세 가지 tab content를 모두 담아 놓은 후, active 클래스 여부에 따라 화면에 보여지게끔 했다
+
+> 나의 코드
+
+-   model.js 파일에 tab content를 모두 담아 놓은 후, tab 버튼을 클릭할 때마다 해당 content를 화면에 새로 렌더링했다

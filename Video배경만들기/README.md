@@ -17,22 +17,16 @@
 
 ## 🧩 실습 결과물
 
-### ▶ practice 1
-
-> 튜토리얼 보기 전, 작성한 코드의 완성본
-
 ![](../gif/video_practice1.gif)
-
-### ▶ practice 2
-
-> 튜토리얼 본 후, 코드를 재작성한 결과 완성본
-
-![](../gif/)
 
 ## 💡 후기
 
-### ▶ practice 1 vs practice 2
+### ▶ 튜토리얼 vs 나의 코드
 
-> practice 1
+> 튜토리얼
 
-> practice 2
+-   기본 div/span 태그와 left 스타일링을 통해 스위치 버튼을 구현했다
+
+> 나의 코드
+
+-   radio 태그와 checked 여부에 따른 스타일링을 통해 스위치 버튼을 구현했다

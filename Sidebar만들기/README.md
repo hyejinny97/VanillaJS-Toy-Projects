@@ -5,22 +5,16 @@
 
 ## 🧩 실습 결과물
 
-### ▶ practice 1
-
-> 튜토리얼 보기 전, 작성한 코드의 완성본
-
 ![](../gif/sidebar_practice1.gif)
-
-### ▶ practice 2
-
-> 튜토리얼 본 후, 코드를 재작성한 결과 완성본
-
-![](../gif/)
 
 ## 💡 후기
 
-### ▶ practice 1 vs practice 2
+### ▶ 튜토리얼 vs 나의 코드
 
-> practice 1
+> 튜토리얼
 
-> practice 2
+-   sidebar 요소를 `left:0`으로 맞춰준 상태에서 `translateX(-100%)`을 통해 화면에 안보이게 했다가 버튼을 클릭하면 `translateX(0)`으로 나타나게 했다
+
+> 나의 코드
+
+-   sidebar 요소를 처음부터 `left:-50%`으로 맞춰 화면에서 안보이게 했다가 버튼을 클릭하면 `left:0`으로 나타나게 했다

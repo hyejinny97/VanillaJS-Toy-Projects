@@ -17,21 +17,11 @@
 
 ## 🧩 실습 결과물
 
-### ▶ practice 1
-
-> 튜토리얼 보기 전, 작성한 코드의 완성본
-
 ![](../gif/ReviewCarousel_practice1.gif)
-
-### ▶ practice 2
-
-> 튜토리얼 본 후, 코드를 재작성한 결과 완성본
-
-![](../gif/)
 
 ## 💡 후기
 
-### ▶ practice 1에서 발생한 이슈 및 해결방법
+### ▶ 실습 중 발생한 이슈 및 해결방법
 
 > 이슈
 
@@ -160,8 +150,14 @@ const addHandlerRandom = function (handler) {
 }
 ```
 
-### ▶ practice 1 vs practice 2
+### ▶ 튜토리얼 vs 나의 코드
 
-> practice 1
+> 튜토리얼
 
-> practice 2
+-   review 안에 들어갈 내용(img, author, job, info)에 해당하는 element를 모두 가지고 와 버튼을 누를 때마다 일일이 바꿔주었다
+-   prev/next 버튼을 클릭하면 현재 아이템의 -1/+1 위치의 아이템을 렌더링하였다
+
+> 나의 코드
+
+-   현재 review DOM과 변경한 review DOM를 비교해 차이가 있는 부분만 렌더링해줬다
+-   렌더링할 때 버튼 요소에 dataset으로 다음에 이동해야할 아이템의 인덱스를 미리 넣어준 후, prev/next 버튼을 클릭하면 dataset를 확인해 해당 아이템으로 렌더링해줬다
